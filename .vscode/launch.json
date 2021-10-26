@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "module": "scrapy",
-            "args": ["crawl", "dicomorgspider"],
+            "args": ["crawl", "dicomorg2spider"],
             "cwd": "${workspaceFolder}/snomedscraper"
         }
     ]

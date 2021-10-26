@@ -1,0 +1,1 @@
+python -m scrapy genspider dicomorgspider dicom.nema.org
