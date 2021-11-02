@@ -9,8 +9,18 @@
             "type": "python",
             "request": "launch",
             "module": "scrapy",
-            "args": ["crawl", "dicomorg2spider"],
+            "args": [
+                "crawl",
+                "dicomorg2spider"
+            ],
             "cwd": "${workspaceFolder}/snomedscraper"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }
